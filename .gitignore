@@ -1,0 +1,104 @@
+# Special
+
+.RunTests.bat
+/Plugins/Developer/*
+
+/Config/DefaultSemver.ini
+
+# Rider++
+
+/.idea
+/Plugins/RiderSourceCodeAccess/*
+
+# VSCode
+
+*.code-workspace
+/.vscode
+
+# Visual Studio 2019
+
+## Resharper
+
+*.sln.*.user
+
+# Builds
+
+/Builds/*
+/Build/*
+
+# UE4 Plugin
+
+/Plugins/UE4GitPlugin/Binaries/
+
+## Ignore any plugin binaries or intermediates
+
+/Plugins/**/Binaries
+/Plugins/**/Intermediate
+/Plugins/**/ASCCache
+
+# Git merge conflict files
+*.orig
+
+# Temporary files created by several applications
+*.*~
+*.tmp
+*.swp
+/enc_temp_folder/*
+
+# Unreal Engine Generated Files
+
+/Intermediate
+/Saved
+/DerivedDataCache
+/Binaries
+/Releases
+/Build
+!/Build/Windows
+/LocalDerivedDataCache
+
+## Lightmap builds
+*_BuiltData*
+
+## HLOD
+
+*_HLOD*
+
+# Unreal Engine Content
+
+## Binary Source Assets (Use Dropbox for these!)
+
+*.png
+*.psd
+*.wav
+*.tga
+*.fbx
+*.jpg
+*.tif
+
+
+# Visual Studio
+
+*.sln
+*.sdf
+*.suo
+*.pdb
+
+## Visual Studio 2017
+
+/.vs/
+
+## Visual Studio Cache Files
+
+*.VC.db
+*.VC.opendb
+/ipch
+
+## Build Pipeline
+
+## Local overwrites of Build Pipeline
+
+/build-config.local.js
+
+/xcuserdata
+/OdinTestProject.xcworkspace
+
